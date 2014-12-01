@@ -1,0 +1,20 @@
+<h1>Dinosaurs!</h1>
+<ul id="dinosaur-list">
+	<% @dinosaurs.each do |dino| %>					
+		<li><%= link_to dino.name, dinosaur_path(dino), :class => "dino-link" %></li> 
+	<% end %>
+</ul>
+
+ <div id= "dinosaur-details">
+
+ </div>
+
+ <script id="dino" type="text/html">
+ 	<ul>
+		<li>Name:{{name}}</li> 
+		<li>Size:{{sizing}}</li> 
+		<li>Wings:{{wings}} </li> 
+		<li>Vegetarian? {{vegetarian}} %></li> 
+	<ul>
+
+ </script>

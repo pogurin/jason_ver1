@@ -1,0 +1,18 @@
+// Place all the styles related to the Dinosaurs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#dinosaur-list,
+#dinosaur-details {
+	float: left;
+	width:50%;
+	min-height: 10em;
+	margin:0;
+	padding: 0;
+
+}
+
+#dinosaur-details {
+	background-color: #e0e0e0;
+}
